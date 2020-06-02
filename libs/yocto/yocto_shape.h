@@ -814,7 +814,7 @@ void make_rounded_box(std::vector<vec4i>& quads, std::vector<vec3f>& positions,
 void make_rect_stack(std::vector<vec4i>& quads, std::vector<vec3f>& positions,
     std::vector<vec3f>& normals, std::vector<vec2f>& texcoords,
     const vec3i& steps = {1, 1, 1}, const vec3f& scale = {1, 1, 1},
-    const vec3f& uvscale = {1, 1, 1});
+    const vec2f& uvscale = {1, 1});
 // Make a floor.
 void make_floor(std::vector<vec4i>& quads, std::vector<vec3f>& positions,
     std::vector<vec3f>& normals, std::vector<vec2f>& texcoords,
